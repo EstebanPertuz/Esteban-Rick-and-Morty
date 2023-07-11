@@ -1,0 +1,24 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+
+body {
+    background-color: #222;
+    opacity: 1;
+    background-image: radial-gradient(#01aa25 0.8px, #000000 0.8px);
+    background-size: 16px 16px;
+    z-index: 1;
+}
+
+.root-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100%;
+}
